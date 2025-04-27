@@ -5,7 +5,7 @@ project_name = "us_visa"
 
 list_of_files = [
 
-    f"{project_name}/__init__.py",
+    f"{project_name}/__init__.py",       #we use __init__.py to mark a directory as a package this is also known as cunstructor file 
     f"{project_name}/components/__init__.py",
     f"{project_name}/components/data_ingestion.py",  
     f"{project_name}/components/data_validation.py",

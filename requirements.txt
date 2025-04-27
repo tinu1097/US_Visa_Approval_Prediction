@@ -11,7 +11,7 @@ xgboost
 catboost
 pymongo
 from_root
-evidently==0.2.8    # for data drift detection
+evidently==0.2.8    # for data drift detection we use evidently
 dill
 PyYAML
 neuro_mf
@@ -22,4 +22,5 @@ fastapi
 uvicorn
 jinja2
 python-multipart
--e .
+-e .                 #with -e . we can install the package which is located in the current directory for e.g. we create a package called US_Visa_Approval_Prediction and we can install it using -e .
+# -e . is used to install the package in editable mode, which means that any changes made to the package will be reflected immediately without needing to reinstall it.

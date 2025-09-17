@@ -1,0 +1,111 @@
+# columns:
+#   - case_id: category
+#   - continent: category
+#   - education_of_employee: category
+#   - has_job_experience: category
+#   - requires_job_training: category
+#   - no_of_employees: int
+#   - yr_of_estab: int
+#   - region_of_employment: category
+#   - prevailing_wage: int
+#   - unit_of_wage: category
+#   - full_time_position: category
+#   - case_status: category
+
+# numerical_columns:
+#   - no_of_employees
+#   - prevailing_wage
+#   - yr_of_estab
+
+# categorical_columns:
+#   - case_id
+#   - continent
+#   - education_of_employee
+#   - has_job_experience
+#   - requires_job_training
+#   - region_of_employment
+#   - unit_of_wage
+#   - full_time_position
+#   - case_status
+
+# drop_columns:
+#   - case_id
+#   - yr_of_estab
+
+# # for data transformation
+# num_features:
+#   - no_of_employees
+#   - prevailing_wage
+#   - company_age
+
+# or_columns:
+#   - has_job_experience
+#   - requires_job_training
+#   - full_time_position
+#   - education_of_employee
+
+# oh_columns:
+#   - continent
+#   - unit_of_wage
+#   - region_of_employment
+
+# transform_columns:
+#   - no_of_employees
+#   - company_age
+
+
+
+columns:
+  - CASE_ID: category
+  - CONTINENT: category
+  - EDUCATION_OF_EMPLOYEE: category
+  - HAS_JOB_EXPERIENCE: category
+  - REQUIRES_JOB_TRAINING: category
+  - NO_OF_EMPLOYEES: int
+  - YR_OF_ESTAB: int
+  - REGION_OF_EMPLOYMENT: category
+  - PREVAILING_WAGE: int
+  - UNIT_OF_WAGE: category
+  - FULL_TIME_POSITION: category
+  - CASE_STATUS: category
+
+numerical_columns:
+  - NO_OF_EMPLOYEES
+  - PREVAILING_WAGE
+  - YR_OF_ESTAB
+
+categorical_columns:
+  - CASE_ID
+  - CONTINENT
+  - EDUCATION_OF_EMPLOYEE
+  - HAS_JOB_EXPERIENCE
+  - REQUIRES_JOB_TRAINING
+  - REGION_OF_EMPLOYMENT
+  - UNIT_OF_WAGE
+  - FULL_TIME_POSITION
+  - CASE_STATUS
+
+drop_columns:
+  - CASE_ID
+  - YR_OF_ESTAB
+
+# for data transformation
+num_features:
+  - NO_OF_EMPLOYEES
+  - PREVAILING_WAGE
+  - COMPANY_AGE
+
+or_columns:
+  - HAS_JOB_EXPERIENCE
+  - REQUIRES_JOB_TRAINING
+  - FULL_TIME_POSITION
+  - EDUCATION_OF_EMPLOYEE
+
+oh_columns:
+  - CONTINENT
+  - UNIT_OF_WAGE
+  - REGION_OF_EMPLOYMENT
+
+transform_columns:
+  - NO_OF_EMPLOYEES
+  - COMPANY_AGE
